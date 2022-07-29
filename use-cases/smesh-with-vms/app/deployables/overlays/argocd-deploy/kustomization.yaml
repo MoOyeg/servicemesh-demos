@@ -3,7 +3,7 @@ bases:
 resources:
   - ./smesh-with-vms-app-presyncjob.yaml
   - ./bookinfo-application.yaml
-  - ./bookinfo-networking-destination-rule.yaml
+#  - ./bookinfo-networking-destination-rule.yaml
   - ./bookinfo-networking-gateway.yaml
   - ./smesh-with-vms-app-postsyncjob.yaml
 #https://github.com/argoproj/argo-cd/issues/1639#issuecomment-1004398142
